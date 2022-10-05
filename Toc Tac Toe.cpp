@@ -133,7 +133,7 @@ class TikTac
 				    return Win;
 				}
 			}
-			temp1=R2.head;                   //2nd Row
+			temp1=R2.head;                    //2nd Row
 			temp2=temp1->address;
 			temp3=temp2->address;
 			if(temp1->data==temp2->data && temp2->data==temp3->data)
